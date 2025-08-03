@@ -5,7 +5,7 @@
 
 
 const form = document.getElementById("registration-form");
-form.addEventListener("submit", function(event){
+form.addEventListener("DOMContentLoaded", function(event){
 event.preventDefault()
 
 
